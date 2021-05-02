@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
 </template>
@@ -25,3 +26,23 @@ export default defineComponent({
   margin-top: 60px;
 }
 </style>
+=======
+  <div class="component">
+    <Logo />
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { Logo } from '@/components/atomos'
+
+export default defineComponent({
+  components: { Logo }
+})
+</script>
+
+<style lang="scss" scoped>
+.component {
+}
+</style>
+>>>>>>> 806e438 (criando atomo Logo)
