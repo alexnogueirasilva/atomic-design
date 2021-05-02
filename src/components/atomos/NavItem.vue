@@ -20,7 +20,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-.component {
+.nav-item {
   .nav-item {
     color: #293947;
     text-decoration: none;

@@ -28,21 +28,22 @@ export default defineComponent({
 </style>
 =======
   <div class="component">
-    <NavItem text="Home" to="/home" />
+    <Search />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { NavItem } from '@/components/atomos'
+import { Search } from '@/components/molecules'
 
 export default defineComponent({
-  components: { NavItem }
+  components: { Search }
 })
 </script>
 
 <style lang="scss" scoped>
 .component {
+  margin: 5rem;
 }
 </style>
 >>>>>>> 806e438 (criando atomo Logo)
