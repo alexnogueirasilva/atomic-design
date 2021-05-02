@@ -1,15 +1,15 @@
 <template>
   <div class="component">
-    <Logo />
+    <NavItem text="Home" to="/home" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Logo } from '@/components/atomos'
+import { NavItem } from '@/components/atomos'
 
 export default defineComponent({
-  components: { Logo }
+  components: { NavItem }
 })
 </script>
 
