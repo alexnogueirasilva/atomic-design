@@ -4,6 +4,6 @@
 
 <style lang="scss" scoped>
 .logo {
-  width: 300px;
+  width: auto;
 }
 </style>

@@ -21,10 +21,8 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .nav-item {
-  .nav-item {
-    color: #293947;
-    text-decoration: none;
-    font-size: 1.3rem;
-  }
+  color: #293947;
+  text-decoration: none;
+  font-size: 1.3rem;
 }
 </style>
