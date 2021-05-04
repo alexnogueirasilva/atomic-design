@@ -1,15 +1,18 @@
 <template>
   <div class="component">
-    <Search />
+    <Service
+      title="Front End"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Search } from '@/components/molecules'
+import { Service } from '@/components/molecules'
 
 export default defineComponent({
-  components: { Search }
+  components: { Service }
 })
 </script>
 
