@@ -1,15 +1,15 @@
 <template>
   <div class="component">
-    <Search />
+    <SocialNetworks />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Search } from '@/components/molecules'
+import { SocialNetworks } from '@/components/molecules'
 
 export default defineComponent({
-  components: { Search }
+  components: { SocialNetworks }
 })
 </script>
 
