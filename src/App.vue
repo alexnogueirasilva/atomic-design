@@ -1,15 +1,15 @@
 <template>
   <div class="component">
-    <Services />
+    <HomeTemplate />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Services } from '@/components/organisms'
+import { HomeTemplate } from '@/components/templates'
 
 export default defineComponent({
-  components: { Services }
+  components: { HomeTemplate }
 })
 </script>
 
