@@ -1,4 +1,4 @@
-# atomic-design
+# atomic-design for course
 
 ## Project setup
 ```
